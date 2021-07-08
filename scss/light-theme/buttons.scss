@@ -14,6 +14,9 @@
                 color: var(--quaternary);
             }
         }
+        .d-icon {
+            color: var(--quaternary-low);
+        }
     }
     &.btn-primary {
         border-radius: 5px;
@@ -22,9 +25,9 @@
         color: white;
         &:hover {
             background-color: var(--quaternary-low);
-            color: black;
+            color: var(--quaternary);
             .d-icon {
-                color: black;
+                color: var(--quaternary);
             }
         }
     }
