@@ -5,20 +5,13 @@
             background-color: purple;
             color: white;
             .d-icon {
-                color: rgb(119, 169, 245);
+                color: var(--quaternary-low);
             }
         }
     }
     .nav-pills { // style navigation links 
         & > li a { // a links inside of the navigation <li> tags
             border-radius: 4px;
-            &.active {
-                background-color: rgb(66, 15, 206);
-            }
-            &:hover {
-                background-color: rgb(168, 178, 238);
-                color: black;
-            }
         }
     }
 }

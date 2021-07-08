@@ -6,11 +6,11 @@
   "name": "FS3 Project Theme",
   "color_schemes": {
     "Default": {
-      "primary": "222222", 
+      "primary": "222222",
       "secondary": "ffffff",
       "tertiary": "c931cb",
-      "quaternary": "2725d6",
-      "header_background": "e9e9e9",
+      "quaternary": "e072e0",
+      "header_background": "ececec",
       "header_primary": "000000",
       "highlight": "e9c5ef",
       "danger": "e45735",

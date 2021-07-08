@@ -2,13 +2,10 @@
     .select-kit.combo-box { // "all categories" and "all tags" 
         .select-kit-body { // dropdown 
             border-radius: 4px;
-            background-color: rgb(230, 228, 228);
+            background-color: var(--header_primary-low);
             .select-kit-collection { // list, fix border below search area 
                 border-top-left-radius: 0px;
                 border-top-right-radius: 0px;
-                .select-kit-row.is-highlighted { // change highlighted part 
-                    background-color:rgb(253, 222, 253);
-                }
             }
             .select-kit-filter { // remove border above search area
                border-top: 0px;

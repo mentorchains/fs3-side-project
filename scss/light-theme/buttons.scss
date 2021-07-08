@@ -1,6 +1,6 @@
 .btn { 
     .d-icon {
-        color: rgb(119, 169, 245);
+        color: var(--quaternary-low);
     }
     &.btn-default {
         border-radius: 5px;
@@ -8,20 +8,20 @@
         background-color: purple;
         color: white;
         &:hover {
-            background-color: rgb(245, 160, 245);
-            color: black;
+            background-color: var(--quaternary-low);
+            color: var(--quaternary);
             .d-icon {
-                color: black;
+                color: var(--quaternary);
             }
         }
     }
     &.btn-primary {
         border-radius: 5px;
         box-shadow: 0px 0px 5px rgb(77, 76, 76);
-        background-color: rgb(66, 15, 206);
+        background-color: var(--quaternary);
         color: white;
         &:hover {
-            background-color: rgb(162, 182, 238);
+            background-color: var(--quaternary-low);
             color: black;
             .d-icon {
                 color: black;
