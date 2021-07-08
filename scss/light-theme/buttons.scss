@@ -1,19 +1,18 @@
-// exclude editor button bar, single select header, modal close button
-// target topic notifications button 
-:not(.d-editor-button-bar) > 
-.btn:not(.single-select-header):not(.modal-close),
-.topic-notifications-button > .reason > .select-kit > .btn { 
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgb(77, 76, 76);
-    color: white;
+.btn { 
     .d-icon {
         color: rgb(23, 192, 23);
     }
     &.btn-default {
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgb(77, 76, 76);
         background-color: purple;
+        color: white;
     }
     &.btn-primary {
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgb(77, 76, 76);
         background-color: rgb(66, 15, 206);
+        color: white;
     }
     &:hover {
         background-color: rgb(23, 192, 23);
@@ -24,3 +23,6 @@
     }
 }
 
+.single-select-header {
+    
+}
