@@ -1,1 +1,38 @@
-// select-kit
+.navigation-container { // style navigation container 
+    .select-kit.combo-box { // "all categories" and "all tags" 
+        .select-kit-header { 
+            border-radius: 4px;
+            background-color: purple;
+            color: white;
+            .d-icon {
+                color: rgb(23, 192, 23);
+            }
+        }
+        .select-kit-body { // dropdown 
+            border-radius: 4px;
+            background-color: rgb(230, 228, 228);
+            .select-kit-collection { // list, fix border below search area 
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                .select-kit-row.is-highlighted { // change highlighted part 
+                    background-color:rgb(253, 222, 253);
+                }
+            }
+            .select-kit-filter { // remove border above search area
+               border-top: 0px;
+            }
+        }
+    }
+    .nav-pills { // style navigation links 
+        & > li a { // a links inside of the navigation <li> tags
+            border-radius: 4px;
+            &.active {
+                background-color: rgb(66, 15, 206);
+            }
+            &:hover {
+                background-color: rgb(168, 178, 238);
+                color: black;
+            }
+        }
+    }
+}
