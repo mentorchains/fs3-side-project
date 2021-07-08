@@ -2,7 +2,9 @@
     .select-kit.combo-box { // "all categories" and "all tags" 
         .select-kit-body { // dropdown 
             border-radius: 4px;
-            background-color: var(--header_primary-low);
+            background-color: var(--highlight-low);
+            border: 1px solid purple;
+            box-shadow: 0px 0px 1px purple;
             .select-kit-collection { // list, fix border below search area 
                 border-top-left-radius: 0px;
                 border-top-right-radius: 0px;
