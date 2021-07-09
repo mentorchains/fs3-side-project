@@ -10,6 +10,9 @@ $dark-grey: rgb(58, 58, 58);
         border-radius: 8px;
         border: 1px solid purple;
         box-shadow: 0px 0px 1px purple;
+        hr {
+            border-top-color: var(--quaternary);
+        }
     }
     #search-term { // search 
         border-radius: 8px;
@@ -17,23 +20,33 @@ $dark-grey: rgb(58, 58, 58);
     }
     .hamburger-panel { // second panel 
         .panel-body-contents { // panel body content
+            .d-icon {
+                color: $dark-grey;
+            }
             a.widget-link {
-                &:hover {
+                &.admin-link {
                     border-radius: 8px;
                     background-color: var(--highlight);
+                }
+                &:hover {
+                    border-radius: 8px;
+                    background-color: var(--highlight-low);
                 }
             } 
             .category-links{ // Categories Portion  
                 .heading a { // Categories 
                     &:hover {
                         border-radius: 8px;
-                        background-color: var(--highlight);
+                        background-color: var(--highlight-low);
                     } 
                 }
                 .category-link { // Staff, Lounge, Uncategorized, Site Feedback 
+                    .category-name {
+                        color: black;
+                    }
                     &:hover {
                         border-radius: 8px;
-                        background-color: var(--highlight);
+                        background-color: var(--highlight-low);
                     } 
                 }
             }
@@ -57,16 +70,18 @@ $dark-grey: rgb(58, 58, 58);
                 }
             }
         }
+
         .quick-access-panel { // quick access panel 
             .d-icon {
                 color: $dark-grey;
             }
-            & > ul { // quick access notifications 
-                border-radius: 8px;
+            & > ul { // quick access notifications
+               border-radius: 8px;
             }
+            
             .panel-body-bottom { // buttons row 
                 .btn { 
-                    border-radius: 5px;
+                    border-radius: 8px;
                     border: 1px solid purple;
                     box-shadow: 0px 0px 1px purple;
                     background-color: var(--header_background);
