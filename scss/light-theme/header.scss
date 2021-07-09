@@ -1,7 +1,80 @@
+$dark-grey: rgb(58, 58, 58);
+
 .d-header { 
     box-shadow: 0px 0px 3px purple;
     .d-icon {  // icons in the header 
         filter: drop-shadow(0px 0px 4px var(--quaternary));
         color: black;
+    }
+    .menu-panel {   // menu panels 
+        border-radius: 8px;
+        border: 1px solid purple;
+        box-shadow: 0px 0px 1px purple;
+    }
+    #search-term { // search 
+        border-radius: 8px;
+        background-color: var(--highlight-low);
+    }
+    .hamburger-panel { // second panel 
+        .panel-body-contents { // panel body content
+            a.widget-link {
+                &:hover {
+                    border-radius: 8px;
+                    background-color: var(--highlight);
+                }
+            } 
+            .category-links{ // Categories Portion  
+                .heading a { // Categories 
+                    &:hover {
+                        border-radius: 8px;
+                        background-color: var(--highlight);
+                    } 
+                }
+                .category-link { // Staff, Lounge, Uncategorized, Site Feedback 
+                    &:hover {
+                        border-radius: 8px;
+                        background-color: var(--highlight);
+                    } 
+                }
+            }
+        }
+        
+    }
+    
+    .user-menu { // third panel 
+        .glyphs { // icons row 
+            .widget-button {
+                .d-icon {
+                    color: $dark-grey;
+                }
+                &.active {
+                    border-radius: 8px;
+                    background-color: var(--highlight);
+                }
+                &:hover {
+                    border-radius: 8px;
+                    background-color: var(--highlight-low);
+                }
+            }
+        }
+        .quick-access-panel { // quick access panel 
+            .d-icon {
+                color: $dark-grey;
+            }
+            & > ul { // quick access notifications 
+                border-radius: 8px;
+            }
+            .panel-body-bottom { // buttons row 
+                .btn { 
+                    border-radius: 5px;
+                    border: 1px solid purple;
+                    box-shadow: 0px 0px 1px purple;
+                    background-color: var(--header_background);
+                    .d-icon {
+                        color: $dark-grey;
+                    }
+                }
+            }
+        }
     }
 }

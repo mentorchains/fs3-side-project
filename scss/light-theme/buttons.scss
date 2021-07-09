@@ -1,4 +1,4 @@
-.btn { 
+:not(.panel-body-bottom) > .btn { 
     .d-icon {
         color: var(--quaternary-low);
     }
