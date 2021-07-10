@@ -1,15 +1,14 @@
 .topic-list {
-    box-shadow: 0px 0px 4px purple;
-    tr { // table rows 
-        border-color: purple;
-    }
     th { // table headings 
-        color: black;
-        text-shadow: 0px 0px 3px rgb(233, 129, 233);
+        color: var(--primary);
+        text-shadow: 0px 0px 3px var(--primary-low-mid);
         font-weight: 550;
-        background-color: var(--header_background);
         .btn-flat .d-icon {
-            color: purple;
+            color: var(--primary);
         }
     }
+}
+
+.ember-application {
+    background-image: linear-gradient(to bottom, var(--secondary), var(--tertiary-low), white);
 }

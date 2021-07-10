@@ -1,52 +1,48 @@
-$dark-grey: rgb(58, 58, 58);
-
 .d-header { 
-    box-shadow: 0px 0px 3px purple;
+    box-shadow: 0px 0px 3px var(--primary-high);
     .d-icon {  // icons in the header 
-        filter: drop-shadow(0px 0px 4px var(--quaternary));
-        color: black;
+        filter: drop-shadow(0px 0px 4px var(--highlight-low));
+        color: var(--highlight-medium);
     }
     .menu-panel {   // menu panels 
         border-radius: 8px;
-        border: 1px solid purple;
-        box-shadow: 0px 0px 1px purple;
+        border: 1px solid var(--primary-high);
+        box-shadow: 0px 0px 1px var(--primary-high);
         hr {
-            border-top-color: var(--quaternary);
+            border-top-color: var(--primary-low);
         }
     }
     #search-term { // search 
         border-radius: 8px;
-        background-color: var(--highlight-low);
+        background-color: var(--tertiary-low);
     }
     .hamburger-panel { // second panel 
         .panel-body-contents { // panel body content
             .d-icon {
-                color: $dark-grey;
+                filter: drop-shadow(0px 0px 4px var(--primary-low-mid));
+                color: var(--primary);
             }
             a.widget-link {
                 &.admin-link {
                     border-radius: 8px;
-                    background-color: var(--highlight);
+                    background-color: var(--tertiary-low);
                 }
                 &:hover {
                     border-radius: 8px;
-                    background-color: var(--highlight-low);
+                    background-color: var(--tertiary-medium);
                 }
             } 
             .category-links{ // Categories Portion  
                 .heading a { // Categories 
                     &:hover {
                         border-radius: 8px;
-                        background-color: var(--highlight-low);
+                        background-color: var(--tertiary-medium);
                     } 
                 }
                 .category-link { // Staff, Lounge, Uncategorized, Site Feedback 
-                    .category-name {
-                        color: black;
-                    }
                     &:hover {
                         border-radius: 8px;
-                        background-color: var(--highlight-low);
+                        background-color: var(--tertiary-medium);
                     } 
                 }
             }
@@ -58,35 +54,40 @@ $dark-grey: rgb(58, 58, 58);
         .glyphs { // icons row 
             .widget-button {
                 .d-icon {
-                    color: $dark-grey;
+                    color: var(--primary);
+                    filter: drop-shadow(0px 0px 4px var(--primary-high));
                 }
                 &.active {
                     border-radius: 8px;
-                    background-color: var(--highlight);
+                    background-color: var(--tertiary-low);
                 }
                 &:hover {
                     border-radius: 8px;
-                    background-color: var(--highlight-low);
+                    background-color: var(--tertiary-medium);
                 }
             }
         }
 
         .quick-access-panel { // quick access panel 
             .d-icon {
-                color: $dark-grey;
+                color: var(--primary);
+                filter: drop-shadow(0px 0px 4px var(--primary-high));
             }
-            & > ul { // quick access notifications
+            & > ul li { // quick access notifications
                border-radius: 8px;
+               &:hover {
+                   background-color: var(--tertiary-medium);
+               }
             }
             
             .panel-body-bottom { // buttons row 
                 .btn { 
                     border-radius: 8px;
-                    border: 1px solid purple;
-                    box-shadow: 0px 0px 1px purple;
-                    background-color: var(--header_background);
+                    border: 1px solid var(--primary-high);
+                    box-shadow: 0px 0px 1px var(--primary-high);
+                    background-color: var(--primary-low);
                     .d-icon {
-                        color: $dark-grey;
+                        filter: drop-shadow(0px 0px 4px var(--primary-high));
                     }
                 }
             }
