@@ -5,6 +5,7 @@
   },
   "name": "FS3 Project Theme",
   "color_schemes": {
+      "Default": {
         "primary": "a9a9a9",
         "secondary": "00000",
         "tertiary": "bb86fc",
@@ -15,5 +16,6 @@
         "danger": "fd6868",
         "success": "72fba7",
         "love": "fd0505"
+      }
   }
 }
