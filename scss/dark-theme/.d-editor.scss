@@ -1,7 +1,13 @@
 .d-editor-textarea-wrapper textarea {
     background: black;
 }
-
+.d-editor-button-bar {
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    border-bottom: 1px solid var(--primary-low);
+    background-color: rgb(77, 76, 139) !important;
+}
 .d-editor-textarea-wrapper {
     display: flex;
     flex-direction: column;
