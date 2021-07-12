@@ -1,0 +1,105 @@
+.d-header {
+    background-color: var(--primary);
+    box-shadow: none;
+
+    .d-icon{
+        color: var(--tertiary);
+    }
+}
+
+
+.d-header { 
+    box-shadow: 0px 0px 3px var(--primary-high);
+    .d-icon {  // icons in the header 
+        filter: drop-shadow(0px 0px 4px var(--highlight-low));
+        color: var(--highlight-medium);
+    }
+    .menu-panel {   // menu panels 
+        border-radius: 8px;
+        border: 1px solid var(--primary-high);
+        box-shadow: 0px 0px 1px var(--primary-high);
+        hr {
+            border-top-color: var(--primary-low);
+        }
+    }
+    #search-term { // search 
+        border-radius: 8px;
+        background-color: var(--tertiary-low);
+    }
+    .hamburger-panel { // second panel 
+        .panel-body-contents { // panel body content
+            .d-icon {
+                filter: drop-shadow(0px 0px 4px var(--primary-low-mid));
+                color: var(--primary);
+            }
+            a.widget-link {
+                &.admin-link {
+                    border-radius: 8px;
+                    background-color: var(--tertiary-low);
+                }
+                &:hover {
+                    border-radius: 8px;
+                    background-color: var(--tertiary-medium);
+                }
+            } 
+            .category-links{ // Categories Portion  
+                .heading a { // Categories 
+                    &:hover {
+                        border-radius: 8px;
+                        background-color: var(--tertiary-medium);
+                    } 
+                }
+                .category-link { // Staff, Lounge, Uncategorized, Site Feedback 
+                    &:hover {
+                        border-radius: 8px;
+                        background-color: var(--tertiary-medium);
+                    } 
+                }
+            }
+        }
+        
+    }
+    
+    .user-menu { // third panel 
+        .glyphs { // icons row 
+            .widget-button {
+                .d-icon {
+                    color: var(--primary);
+                    filter: drop-shadow(0px 0px 4px var(--primary-high));
+                }
+                &.active {
+                    border-radius: 8px;
+                    background-color: var(--tertiary-low);
+                }
+                &:hover {
+                    border-radius: 8px;
+                    background-color: var(--tertiary-medium);
+                }
+            }
+        }
+
+        .quick-access-panel { // quick access panel 
+            .d-icon {
+                color: var(--primary);
+                filter: drop-shadow(0px 0px 4px var(--primary-high));
+            }
+            & > ul li { // quick access notifications
+               border-radius: 8px;
+               &:hover {
+                   background-color: var(--tertiary-medium);
+               }
+            }
+            
+            .panel-body-bottom { // buttons row 
+                .btn { 
+                    border-radius: 8px;
+                    border: 1px solid var(--primary-high);
+                    background-color: var(--primary-low);
+                    .d-icon {
+                        filter: drop-shadow(0px 0px 4px var(--primary-high));
+                    }
+                }
+            }
+        }
+    }
+}
