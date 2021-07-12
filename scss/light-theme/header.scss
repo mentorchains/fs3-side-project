@@ -23,7 +23,7 @@
                 color: var(--primary);
             }
             a.widget-link {
-                &.admin-link {
+                &.faq-priority {
                     border-radius: 8px;
                     background-color: var(--tertiary-low);
                 }
@@ -34,12 +34,6 @@
             } 
             .category-links{ // Categories Portion  
                 .heading a { // Categories 
-                    &:hover {
-                        border-radius: 8px;
-                        background-color: var(--tertiary-medium);
-                    } 
-                }
-                .category-link { // Staff, Lounge, Uncategorized, Site Feedback 
                     &:hover {
                         border-radius: 8px;
                         background-color: var(--tertiary-medium);
