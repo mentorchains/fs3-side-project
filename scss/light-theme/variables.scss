@@ -4,6 +4,6 @@
     transition-property: box-shadow background-color; 
     transition-duration: 1s;
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0px 0px 4px 4px white;
+    box-shadow: 0px 0px 4px 3px var(--primary-low-mid);
     background-color: var(--primary-low);
 }
