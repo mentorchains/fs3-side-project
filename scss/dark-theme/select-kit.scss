@@ -1,6 +1,6 @@
 //select-kit
 .select-kit {
-    @include unselectable;
+  @include unselectable;
   border: none;
   box-sizing: border-box;
   display: inline-block;
