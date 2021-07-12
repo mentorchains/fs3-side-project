@@ -1,3 +1,5 @@
+// categories
+@use "light-theme/variables.scss";
 .navigation-container { // style navigation container 
     .select-kit.combo-box { // "all categories" and "all tags" 
         .select-kit-header { 
@@ -8,5 +10,13 @@
         & > li a { // a links inside of the navigation <li> tags
             border-radius: 4px;
         }
+    }
+}
+
+// category box including latest posts
+.has-description.no-logo:hover {
+    @include highlight;
+    .category {
+        border-color: var(--primary-low) !important;
     }
 }
