@@ -1,0 +1,45 @@
+// topic-list
+.topic-list {
+    th { 
+        color: var(--primary);
+        text-shadow: rgba(247, 0, 255, 0.562) 1px 0 3px;
+        font-weight: 550;
+        .btn-flat .d-icon {
+            color: var(--primary);
+        }
+    }
+}
+
+/*
+.td {
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.4s forwards;
+  animation-delay: 0.3s;
+}
+}
+*/
+
+.topic-list th {
+    color: var(--primary);
+    text-shadow: rgba(247,0,255,0.562) 1px 0 3px;
+    font-weight: 550;
+    font-size: 17px;
+}
+
+.topic-list tr:hover {
+  background-color: rgba(247, 0, 255, 0.562);
+  transition: 2s;
+}

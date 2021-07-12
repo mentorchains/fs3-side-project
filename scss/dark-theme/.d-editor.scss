@@ -1,0 +1,11 @@
+.d-editor-textarea-wrapper textarea {
+    background: black;
+}
+
+.d-editor-textarea-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 3, 68);
+    position: relative;
+    border: 1px solid var(--primary-medium);
+}

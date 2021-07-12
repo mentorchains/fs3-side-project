@@ -11,3 +11,19 @@
         }
     }
 }
+//comment
+
+//centers topics and its number 
+.category-list .topics {
+    width: 80px;
+    text-align: center;
+}
+
+//change color of labels from white to grey 
+.category-list th {
+    color: #eee4f3 !important;
+    text-shadow: none;
+    font-weight: 550;
+    font-size: 17px;color: var(--primary-med-or-secondary-high);
+    
+}

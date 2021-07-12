@@ -102,4 +102,19 @@
             }
         }
     }
+.d-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(114, 7, 185);
+    box-shadow: 0 2px 4px -1px rgba(68, 67, 126, 0.25);
+    backface-visibility: hidden;
+}
+#grad {
+  background-image: linear-gradient(to right, rgb(42, 3, 68) , rgb(26, 27, 31));
+}
+.ember-application {
+    background-image: linear-gradient(to bottom, var(--secondary), rgb(23, 2, 37)); 
+}
 }
