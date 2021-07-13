@@ -11,6 +11,23 @@
     .cancel {
         font-weight: bold;
     }
+    
+    #reply-title {
+        border-radius: 8px;
+        border: 1px solid var(--primary-high);
+        box-shadow: 0px 0px 1px var(--primary-high);
+    }
+}
+
+#reply-control .reply-to .composer-action-title .action-title {
+    font-weight: bold;
+    color: var(--primary-low);
+}
+
+.select-kit.combo-box {
+    border-radius: 8px;
+    border: 1px solid var(--primary-high);
+    box-shadow: 0px 0px 1px var(--primary-high);
 }
 
 #reply-to { //top bar of composer
@@ -28,4 +45,10 @@
             }
         }
     }
+}
+
+.d-editor-textarea-wrapper {
+    border-radius: 8px;
+    border: 1px solid var(--primary-high);
+    box-shadow: 0px 0px 1px var(--primary-high);
 }
