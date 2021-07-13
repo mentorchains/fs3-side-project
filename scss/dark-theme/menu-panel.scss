@@ -1,4 +1,14 @@
 .menu-panel .widget-link:hover, .menu-panel .widget-link:focus, .menu-panel .categories-link:hover, .menu-panel .categories-link:focus {
-    background-color: var(--highlight-medium);
+    background-color: var(--tertiary-medium);
     outline: none;
 }
+
+/*.hamburger-panel a.widget-link {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+       
+}
+*/
