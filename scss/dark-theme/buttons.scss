@@ -10,7 +10,7 @@
         }
     }
     &.btn-primary {
-        border-radius: 5px;
+        border-radius: 10px;
         box-shadow: 0px 0px 5px var(--primary-high);
         background-color: var(--primary);
         &:hover {
@@ -19,6 +19,7 @@
         .d-icon {
             color: var(--secondary-high);
         }
+
     }
 }
 
@@ -38,4 +39,9 @@
     cursor: pointer;
     transition: all 0.25s;
 }
- 
+
+
+
+
+
+
