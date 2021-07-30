@@ -1,1 +1,6 @@
-// comment
+// topic
+@use "light-theme/variables.scss";
+// imports mixin for highlight effect
+.onscreen-post:hover {
+    @include highlight;
+}

@@ -5,5 +5,17 @@
   },
   "name": "FS3 Project Theme",
   "color_schemes": {
+    "Default": {
+      "primary": "8f00a2",
+      "secondary": "fdeeff",
+      "tertiary": "0c5b65",
+      "quaternary": "805a5a",
+      "header_background": "c055ff",
+      "header_primary": "333333",
+      "highlight": "19ffe7",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
   }
 }

@@ -1,1 +1,27 @@
-//  file for buttons modifications
+:not(.panel-body-bottom) > .btn { 
+    &.btn-default {
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px var(--primary-high);
+        &:hover {
+            background-color: var(--primary-low-mid);
+        }
+        .d-icon {
+            color: var(--secondary-high);
+        }
+    }
+    &.btn-primary {
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px var(--primary-high);
+        background-color: var(--primary);
+        &:hover {
+            background-color: var(--primary-low-mid);
+        }
+        .d-icon {
+            color: var(--secondary-high);
+        }
+    }
+}
+
+.single-select-header {
+    
+}
