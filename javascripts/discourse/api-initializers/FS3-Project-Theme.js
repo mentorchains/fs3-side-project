@@ -16,7 +16,7 @@ export default apiInitializer('0.11.1', (api) => {
         elems = document.getElementsByClassName("themes")
         for (let i = 0; i < elems.length; i++) {
           elems[i].style.backgroundColor = "transparent";
-          if (elems[i].id == 'latte_theme') {
+          if (elems[i].id == 'dark_theme') {
             elems[i].style.backgroundColor = "var(--quaternary)";
           }
         }
@@ -29,7 +29,7 @@ export default apiInitializer('0.11.1', (api) => {
         elems = document.getElementsByClassName("themes")
         for (let i = 0; i < elems.length; i++) {
           elems[i].style.backgroundColor = "transparent";
-          if (elems[i].id == 'summer_theme') {
+          if (elems[i].id == 'light_theme') {
             elems[i].style.backgroundColor = "var(--quaternary)";
           }
         }
