@@ -10,7 +10,7 @@ export default apiInitializer('0.11.1', (api) => {
       if (cur.checked) {
         console.log('change to black');
         for (let i = 0; i < parameters.length; i++) {
-          document.documentElement.style.setProperty('--' + parameters[i], '#' + latte_theme[i]);
+          document.documentElement.style.setProperty('--' + parameters[i], '#' + dark_theme[i]);
         };
 
         elems = document.getElementsByClassName("themes")
@@ -23,7 +23,7 @@ export default apiInitializer('0.11.1', (api) => {
       } else {
         console.log('change to red');
         for (let i = 0; i < parameters.length; i++) {
-          document.documentElement.style.setProperty('--' + parameters[i], '#' + summer_theme[i]);
+          document.documentElement.style.setProperty('--' + parameters[i], '#' + light_theme[i]);
         };
 
         elems = document.getElementsByClassName("themes")
